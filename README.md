@@ -1,4 +1,4 @@
-railo4heroku
+railo-heroku-template
 ============
 
 Railo for heroku
@@ -10,7 +10,7 @@ requires [Maven](http://maven.apache.org/) to build the project, and optionally 
 To get thing running do
 
 ```bash
-$ git clone git://github.com/d1rtym0nk3y/railo4heroku.git mysite.dev
+$ git clone git://github.com/d1rtym0nk3y/railo-heroku-template.git mysite.dev
 $ cd mysite.dev
 $ mvn package
 $ foreman start
