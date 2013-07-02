@@ -3,7 +3,6 @@
         "http://urlrewritefilter.googlecode.com/svn/trunk/src/java/org/tuckey/web/filters/urlrewrite/dtds/urlrewrite4.0.dtd">
 <urlrewrite> 
 	<rule enabled="true"> 
-		<name>block_railo_admin</name>
 	    <note>Block Railo admin to remote hosts</note> 
 	    <condition type="remote-addr" operator="notequal">127.0.0.1</condition>
 	    <condition type="remote-addr" operator="notequal">0:0:0:0:0:0:0:1</condition>
@@ -12,14 +11,17 @@
 	    <set type="status">403</set> 
 	</rule>	
 
-<!--
-	<rule>
-		<name>ses_urls</name>
+	<rule enabled="true">
+		<note>If the request is for railo admin, don't process any further rules</note>
+		<from>^/railo-context/(.*)</from>
+		<to last="true">/railo-context/$1</to>
+	</rule>
+
+	<rule enabled="false">
 		<note>search engine friendly urls for cf frameworks</note>
 		<condition type="request-filename" operator="notfile" />
 		<from>^(.*)$</from>
 		<to>/index.cfm$1</to> 
 	</rule>
--->
 
 </urlrewrite>
