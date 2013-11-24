@@ -1,3 +1,0 @@
-language: java
-before_script: mvn package
-script: ant main
