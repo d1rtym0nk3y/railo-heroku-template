@@ -11,7 +11,7 @@
 		<dependency>
 			<groupId>org.getrailo</groupId>
 			<artifactId>railo</artifactId>
-			<version>4.2.1.001</version>
+			<version>4.2.1.003</version>
 		</dependency>
 
 	    <dependency>
