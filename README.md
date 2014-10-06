@@ -1,6 +1,8 @@
 railo-heroku-template
 ============
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 Railo for heroku
 
 Blank Railo template for creating a Railo site on Heroku
