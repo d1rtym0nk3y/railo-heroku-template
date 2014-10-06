@@ -1,0 +1,7 @@
+{
+  "name": "Railo Heroku Template",
+  "description": "A barebones Railo setup for Heroku",
+  "repository": "https://github.com/d1rtym0nk3y/railo-heroku-template",
+  "logo": "",
+  "keywords": ["railo", "cfml"]
+}
