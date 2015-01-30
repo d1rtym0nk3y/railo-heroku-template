@@ -1,7 +1,7 @@
 {
-  "name": "Railo Heroku Template",
-  "description": "A barebones Railo setup for Heroku",
-  "repository": "https://github.com/d1rtym0nk3y/railo-heroku-template",
-  "logo": "http://www.getrailo.org/tasks/sites/railoorg/assets/Image/Images/logos/railo-handwrite_200x128.gif",
-  "keywords": ["railo", "cfml"]
+  "name": "Lucee Heroku Template",
+  "description": "A barebones Lucee setup for Heroku",
+  "repository": "https://github.com/mikesprague/lucee-heroku-template",
+  "logo": "http://lucee.org/assets/img/lucee-logo.png",
+  "keywords": ["lucee", "cfml"]
 }
