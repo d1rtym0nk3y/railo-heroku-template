@@ -19,8 +19,10 @@ $ cd lucee-heroku-template
 $ mvn package
 $ foreman start
 ```
-
-NOTE: On Windos machines you may have more success with ```$ foreman start -f Procfile.dev```
+NOTE: On Windows, start foreman with the following command: 
+```bash
+$ foreman start -f Procfile.dev
+```
 
 You'll now have Lucee up and running at [http://localhost:5000](http://localhost:5000).
 Start adding your code to /webroot.
