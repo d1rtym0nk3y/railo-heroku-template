@@ -5,6 +5,8 @@ lucee-heroku-template
 
 Lucee for heroku
 
+Demo: [https://lucee.herokuapp.com/](https://lucee.herokuapp.com/)
+
 Blank Lucee template for creating a Lucee site on Heroku
 
 requires [Maven](http://maven.apache.org/) to build the project, and optionally [foreman](https://github.com/ddollar/foreman) to run locally
